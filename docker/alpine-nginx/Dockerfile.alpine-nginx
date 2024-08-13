@@ -10,7 +10,7 @@ RUN apk update && apk add --no-cache \
     curl \
     ca-certificates \
     && cp /usr/share/zoneinfo/Asia/Seoul /etc/localtime && \
-    && echo "Asia/Seoul" > /etc/timezone
+    && echo "Asia/Seoul" > /etc/timezone \
     && rm -rf /var/cache/apk/*
 
 # Nginx 로그 디렉터리 생성 및 권한 설정
