@@ -1,6 +1,3 @@
-아래는 제시된 리포지토리 구조에 맞춰 작성된 `README.md` 파일의 예시입니다. 이 파일은 리포지토리의 목적, 각 Dockerfile과 관련 워크플로우에 대한 설명, 사용 방법 등을 포함하고 있습니다.
-
-```markdown
 # Multi-Environment Docker Images
 
 This repository contains Dockerfiles and resources for building and pushing Docker images for various web servers across different Linux distributions. The repository is structured to easily manage multiple Docker images, including configurations for both Nginx and Apache on Alpine and Ubuntu.
@@ -89,17 +86,3 @@ Contributions are welcome! Please open an issue or submit a pull request with yo
 ## Contact
 
 For any inquiries, please contact [Your Name](mailto:your.email@example.com).
-```
-
-### **설명:**
-
-- **Introduction**: 설명 시작 부분에서 리포지토리의 목적을 명확히 설명합니다.
-- **Repository Structure**: 리포지토리의 구조를 보여주고, 주요 디렉토리 및 파일들의 역할을 설명합니다.
-- **Docker Images**: 각 Dockerfile에 대한 상세 설명과 관련된 리소스 파일들을 나열합니다.
-- **GitHub Actions Workflows**: CI/CD 파이프라인에 대한 설명을 포함하여, 각 워크플로우의 목적과 역할을 명시합니다.
-- **Usage**: 워크플로우의 사용 방법을 간단히 설명합니다.
-- **Adding a New Dockerfile**: 새 Dockerfile과 워크플로우를 추가하는 방법을 안내합니다.
-- **License & Contributing**: 라이선스와 기여 가이드라인을 설명합니다.
-- **Contact**: 리포지토리 관리자와 연락할 수 있는 방법을 제공합니다.
-
-이 `README.md`는 리포지토리를 처음 접하는 사람들에게 프로젝트의 전반적인 구조와 사용 방법을 이해시키는 데 도움이 될 것입니다.
