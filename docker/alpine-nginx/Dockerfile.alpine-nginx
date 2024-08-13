@@ -30,4 +30,4 @@ COPY ./nginx.conf /etc/nginx/ngnix.conf
 CMD ["nginx", "-g", "daemon off;"]
 
 # 80번 포트로 HTTP 서비스 제공
-EXPOSE
+EXPOSE 80
